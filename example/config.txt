@@ -1,0 +1,2 @@
+Prefix plugins/DiffusionPlot/example/
+Plugin DiffusionPlot inputfile parameters.diffusionplot.txt outputfile diffusion.pdf
