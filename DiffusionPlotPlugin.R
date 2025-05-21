@@ -34,6 +34,8 @@ pdf(outputfile)
 
 analysis.nafld <- readRDS(paste(pfix, parameters["enriched", 2], sep="/"))
 
+#print(str(analysis.nafld))
+write.csv(analysis.nafld@diffusion@pscores, paste(outputfile, "csv", sep="."))
 plot(
     analysis.nafld,
     method = "diffusion",
